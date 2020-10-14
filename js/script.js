@@ -26,11 +26,26 @@ hamburgerBackgroundBlack.addEventListener('click', () => {
 });
 
 allItems.forEach(el => {
-    el.addEventListener('click', () => {
-        hamburgerToggle();
-        hamburgerAnimToggle();
-        barAnimation();
-    });
+    if (nav.classList.contains('none')) {
+        el.addEventListener('click', () => {
+            nav.classList.add('none');
+            contacts.classList.add('none');
+            applyButton.classList.add('none');
+            hamburgerBackground.classList.remove('on');
+            hamburgerBackgroundBlack.classList.remove('on');
+            document.querySelector('.main').classList.remove('hamburger-off-scroll');
+            document.querySelector('body').classList.remove('hamburger-off-scroll');
+            document.querySelector('html').classList.remove('hamburger-off-scroll');
+            nav.classList.remove('hamburger-animation');
+            contacts.classList.remove('hamburger-animation');
+            applyButton.classList.remove('hamburger-animation');
+            hamburgerBackground.classList.remove('hamburger-animation');
+            hamburgerBackgroundBlack.classList.remove('hamburger-animation-black');
+            bar1.classList.remove('anim');
+            bar3.classList.remove('anim');
+            bar2.classList.remove('anim');
+        });
+    }
 });
 
 $(document).ready(function(){

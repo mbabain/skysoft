@@ -99,9 +99,9 @@
                         <a href="mailto:sales@theskysoft.ru" class="section-header-contacts-item__text">sales@theskysoft.ru</a>
                     </div>
                 </div>
-                <a href="#form" class="section-header-apply button-border">
+                <button class="section-header-apply button-border b24-web-form-popup-btn-4">
                     Заказать звонок
-                </a>
+                </button>
                 <div class="hamburger">
                     <span class="hamburger-bar" id="bar1"></span>
                     <span class="hamburger-bar" id="bar2"></span>
@@ -187,7 +187,7 @@
                         <div class="section-services-item__description">
                             Настройка CRM, телефонии
                         </div>
-                        <button class="section-services-item__button button-border">
+                        <button class="section-services-item__button button-border b24-web-form-popup-btn-4">
                             Получить консультацию
                         </button>
                     </div>
@@ -203,7 +203,7 @@
                         <div class="section-services-item__description">
                             Интеграция с соц сетями, мессенджерами, почтой, 1С, сайтом;
                         </div>
-                        <button class="section-services-item__button button-border">
+                        <button class="section-services-item__button button-border b24-web-form-popup-btn-4">
                             Получить консультацию
                         </button>
                     </div>
@@ -219,7 +219,7 @@
                         <div class="section-services-item__description">
                             Подбор вариантов автоматизации под ваши бизнес-процессы;
                         </div>
-                        <button class="section-services-item__button button-border">
+                        <button class="section-services-item__button button-border b24-web-form-popup-btn-4">
                             Получить консультацию
                         </button>
                     </div>
@@ -235,7 +235,7 @@
                         <div class="section-services-item__description">
                             Обучение вас <br> и ваших сотрудников - видеовстреча или сопровождение бизнес-тренера в течение месяца с аттестацией.
                         </div>
-                        <button class="section-services-item__button button-border">
+                        <button class="section-services-item__button button-border b24-web-form-popup-btn-4">
                             Получить консультацию
                         </button>
                     </div>
@@ -352,7 +352,7 @@
                             <div class="section-tariffs-item--buttons__text">
                                 Только лицензия Битрикс24
                             </div>
-                            <button class="section-tariffs-item-button button-white">
+                            <button class="section-tariffs-item-button button-white b24-web-form-popup-btn-4">
                                 <span>Заказать</span>
                             </button>
                         </div>
@@ -370,7 +370,7 @@
                             <div class="section-tariffs-item__price">
                                 От 5000 RUB
                             </div>
-                            <button class="section-tariffs-item-button button-white">
+                            <button class="section-tariffs-item-button button-white b24-web-form-popup-btn-4">
                                 <span>Заказать</span>
                             </button>
                         </div>
@@ -388,7 +388,7 @@
                             <div class="section-tariffs-item__price">
                                 От 15000 RUB
                             </div>
-                            <button class="section-tariffs-item-button button-white">
+                            <button class="section-tariffs-item-button button-white b24-web-form-popup-btn-4">
                                 <span>Заказать</span>
                             </button>
                         </div>
@@ -407,7 +407,7 @@
                             <div class="section-tariffs-item__price">
                                 От 15000 RUB
                             </div>
-                            <button class="section-tariffs-item-button button-white">
+                            <button class="section-tariffs-item-button button-white b24-web-form-popup-btn-4">
                                 <span>Заказать</span>
                             </button>
                         </div>
@@ -417,7 +417,7 @@
                             <div class="section-tariffs-item--buttons__text">
                                 Попробовать <br> бесплатно
                             </div>
-                            <button class="section-tariffs-item-button button-blue">
+                            <button class="section-tariffs-item-button button-blue b24-web-form-popup-btn-4">
                                 <span>Получить бесплатную версию</span>
                             </button>
                         </div>
@@ -426,6 +426,16 @@
             </div>
         </section>
         <!-- /Tariffs -->
+        <script id="bx24_form_button" data-skip-moving="true">
+            (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                    (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                    if(w[b]['forms']) return;
+                    var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+            })(window,document,'https://skysoft.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
+    
+            b24form({"id":"4","lang":"ru","sec":"45blya","type":"button","click":""});
+    </script>
 
         <!-- Form -->
         <section class="section-form" id="form">
@@ -441,16 +451,6 @@
             
                     b24form({"id":"4","lang":"ru","sec":"45blya","type":"inline"});
                 </script>
-                <!-- <script id="bx24_form_inline" data-skip-moving="true">
-                    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-                            (w[b].forms=w[b].forms||[]).push(arguments[0])};
-                            if(w[b]['forms']) return;
-                            var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
-                            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                    })(window,document,'https://skysoft.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
-            
-                    b24form({"id":"2","lang":"ru","sec":"4hqke6","type":"inline"});
-                </script> -->
             </div>
         </section>
         <!-- Form -->
