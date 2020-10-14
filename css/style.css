@@ -182,7 +182,8 @@ img {
     background-color: #15A1B2;
     color: #FFFFFF;
     cursor: pointer;
-    transition: 0.1s linear; }
+    transition: 0.1s linear;
+    text-decoration: none; }
     .section-header-apply:hover {
       color: #e2e2e2;
       background-color: #0b808d; }

@@ -7,6 +7,7 @@ const bar3 = document.getElementById('bar3');
 const nav = document.querySelector('.section-header-nav');
 const contacts = document.querySelector('.section-header-contacts');
 const applyButton = document.querySelector('.section-header-apply');
+const allItems = document.querySelectorAll('.section-header-nav-item, .section-header-apply');
 
 nav.classList.add('none');
 contacts.classList.add('none');
@@ -22,6 +23,14 @@ hamburgerBackgroundBlack.addEventListener('click', () => {
     hamburgerToggle();
     hamburgerAnimToggle();
     barAnimation();
+});
+
+allItems.forEach(el => {
+    el.addEventListener('click', () => {
+        hamburgerToggle();
+        hamburgerAnimToggle();
+        barAnimation();
+    });
 });
 
 $(document).ready(function(){
