@@ -1000,6 +1000,10 @@ img {
         }
     }
 
+    .title__text {
+        display: none;
+    }
+
     @media (max-width: 1170px) {
         .button-white {
             opacity: 1;
@@ -1012,6 +1016,11 @@ img {
         .title__text {
             text-align: center;
         }
+
+        .title__text {
+            display: inline-block;
+        }
+
         .bold {
             font-weight: 700;
         }

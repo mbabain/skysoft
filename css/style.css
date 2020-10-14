@@ -630,6 +630,8 @@ img {
       padding: 15px 9px;
       color: #FFFFFF;
       background-color: #478ECC; }
+  .section-tariffs .title__text {
+    display: none; }
   @media (max-width: 1170px) {
     .section-tariffs .button-white {
       opacity: 1; } }
@@ -637,6 +639,8 @@ img {
     .section-tariffs .title,
     .section-tariffs .title__text {
       text-align: center; }
+    .section-tariffs .title__text {
+      display: inline-block; }
     .section-tariffs .bold {
       font-weight: 700; }
     .section-tariffs .blue {
